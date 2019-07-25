@@ -7,11 +7,15 @@
 //
 
 import UIKit
+import DemoFramework
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        let test = TestPod()
+        test.Testlog()
         // Do any additional setup after loading the view, typically from a nib.
     }
 

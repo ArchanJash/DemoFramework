@@ -1,0 +1,26 @@
+{
+  "name": "DemoFramework",
+  "version": "0.1.0",
+  "summary": "A short description of DemoFramework.",
+  "homepage": "https://github.com/ArchanJash/DemoFramework",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "ArchanJash": "archan@klizos.com"
+  },
+  "source": {
+    "git": "https://github.com/ArchanJash/DemoFramework.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "DemoFramework/Classes/**/*",
+  "resource_bundles": {
+    "DemoFramework": [
+      "DemoFramework/Assets/*.png"
+    ]
+  }
+}
